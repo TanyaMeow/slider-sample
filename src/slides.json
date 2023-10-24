@@ -1,0 +1,14 @@
+[
+  {
+    "img": "images/little.jpg",
+    "text": "Slide 1"
+  },
+  {
+    "img": "images/medium.jpg",
+    "text": "Slide 2"
+  },
+  {
+    "img": "images/large.jpg",
+    "text": "Slide 3"
+  }
+]

@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+  color: #0014ff;
+  font-size: 20px;
+  position: relative;
+  bottom: 55px;
+}
+
+.slide {
+  width: 700px;
+}
+
+.slide_image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.no-active {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: #c9c9c9;
+}
+
+.active {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: #989898;
+}
+
+.active:hover,
+.no-active:hover,
+.prev:hover,
+.next:hover {
+  content: '';
+  cursor: pointer;
+}
